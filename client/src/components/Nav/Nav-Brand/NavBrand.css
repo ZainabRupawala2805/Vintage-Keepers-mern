@@ -1,0 +1,46 @@
+.navbrand__container {
+    height: 100%;
+    width: 25%;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px; /* Smooth rounded corners */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effects */
+}
+
+.navbrand__container:hover {
+    transform: scale(1.05); /* Slight zoom-in effect */
+}
+
+.navbrand {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase; /* Capitalizes text for emphasis */
+    text-align: center;
+    color: #333; /* Neutral, dark text */
+    letter-spacing: 2px; /* Adds spacing between letters for a refined look */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Adds subtle text shadow */
+    margin: auto 10px;
+}
+
+/* .navbrand a {
+    text-decoration: none; 
+    color: inherit; 
+    transition: color 0.3s ease-in-out; 
+} */
+
+.navbrand a:hover {
+    color: #c4ac4c; /* Changes text color to gray on hover */
+}
+
+@media screen and (max-width: 600px) {
+    .navbrand__container {
+        align-self: center;
+        width: 100%; /* Takes full width on smaller screens */
+        padding: 8px;
+        border-radius: 5px; /* Adjust rounded corners for smaller screens */
+    }
+
+}
